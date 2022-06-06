@@ -9,7 +9,7 @@ const Login = () => {
                 <img src={Banner} alt="spotify logo" width="10%"/>
             </Nav>
             <LoginBlock>
-                <a href={ loginURL } target="_blank">
+                <a href={ loginURL }>
                     <LoginBtn>LOGIN WITH SPOTIFY</LoginBtn>
                 </a>
             </LoginBlock>

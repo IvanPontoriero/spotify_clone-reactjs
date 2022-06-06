@@ -1,6 +1,6 @@
 import { Container } from './Player.elements'
 
-const Player = () => {
+const Player = ({ spotify }) => {
 
     return (
         <Container>
@@ -8,3 +8,5 @@ const Player = () => {
         </Container>
     )
 }
+
+export default Player;
